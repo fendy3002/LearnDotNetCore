@@ -8,7 +8,7 @@ namespace consoleApp.JSON
     class Access
     {
         public void Run(){
-            Console.WriteLine("consoleApp.JObject.Access");
+            Console.WriteLine("consoleApp.JSON.Access");
 
             JObject jsonObj = JObject.Parse("{\"name\": \"Luke\", \"Address\": \"Tatooine\"}");
             Console.WriteLine("jsonObj.Property(\"name\").Name: " + jsonObj.Property("name").Name);
@@ -16,7 +16,7 @@ namespace consoleApp.JSON
             Console.WriteLine("jsonObj.Property(\"Address\").Name: " + jsonObj.Property("Address").Name);
             Console.WriteLine("jsonObj.Property(\"Address\").Value: " + jsonObj.Property("Address").Value);
 
-            Console.WriteLine("/consoleApp.JObject.Access");
+            Console.WriteLine("/consoleApp.JSON.Access");
             Console.WriteLine();
         }
     }

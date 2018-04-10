@@ -11,7 +11,7 @@ namespace consoleApp
         static void Main(string[] args)
         {
             new Paths.PathTest().Run();
-            new JSON.Access().Run();
+            new JSON.Main().Run();
             
             Console.WriteLine(Directory.GetCurrentDirectory());
 
