@@ -10,6 +10,7 @@ namespace consoleApp.JSON
         public void Run(){
             new Access().Run();
             new Serialize().Run();
+            new Deserialize().Run();
         }
     }
 }
